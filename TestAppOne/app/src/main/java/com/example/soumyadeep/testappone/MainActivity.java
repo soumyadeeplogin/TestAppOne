@@ -6,47 +6,47 @@ import android.util.Log;
 
 public class MainActivity extends AppCompatActivity {
 
-    public static final String Tag = "Main Activity";
+    public static final String tag = "Main Activity";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Log.d(Tag,"onCreate()");
+        Log.d(tag,"onCreate()");
     }
 
     @Override
     protected void onStart() {
         super.onStart();
-        Log.d(Tag,"onStart()");
+        Log.d(tag,"onStart()");
     }
 
     @Override
     protected void onResume() {
         super.onResume();
-        Log.d(Tag,"onResume()");
+        Log.d(tag,"onResume()");
     }
 
     @Override
     protected void onPause() {
         super.onPause();
-        Log.d(Tag,"onPause()");
+        Log.d(tag,"onPause()");
     }
 
     @Override
     protected void onStop() {
         super.onStop();
-        Log.d(Tag,"onStop()");
+        Log.d(tag,"onStop()");
     }
 
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        Log.d(Tag,"onDestroy()");
+        Log.d(tag,"onDestroy()");
     }
 
     @Override
     protected void onRestart() {
         super.onRestart();
-        Log.d(Tag,"onRestart()");
+        Log.d(tag,"onRestart()");
     }
 }
